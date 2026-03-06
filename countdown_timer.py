@@ -1,10 +1,10 @@
-# ⏳ Python Countdown Timer
+# ⏳ Countdown Timer in Python
 
 A simple **Python countdown timer** that takes time input in seconds and displays a live countdown in `HH:MM:SS` format until the timer reaches zero.
 
 ## 🚀 Features
 - Accepts user input in **seconds**
-- Displays time in **hours : minutes : seconds format**
+- Displays time in **HH:MM:SS format**
 - Updates the countdown **every second**
 - Shows **"TIMES UP!"** when the timer finishes
 - Beginner-friendly Python project
