@@ -24,6 +24,11 @@ python countdown_timer.py
 ```
 
 4. Enter the time in **seconds** and the countdown will begin.
+---
+
+## 📸 Demo
+
+![Countdown Timer Demo](countdown_demo.png)
 
 ## 📚 What I Learned
 - Python loops (`for`)
