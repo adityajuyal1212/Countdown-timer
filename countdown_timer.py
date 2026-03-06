@@ -1,0 +1,59 @@
+# ⏳ Python Countdown Timer
+
+A simple **Python countdown timer** that takes time input in seconds and displays a live countdown in `HH:MM:SS` format until the timer reaches zero.
+
+## 🚀 Features
+- Accepts user input in **seconds**
+- Displays time in **hours : minutes : seconds format**
+- Updates the countdown **every second**
+- Shows **"TIMES UP!"** when the timer finishes
+- Beginner-friendly Python project
+
+## 🛠️ Built With
+- Python
+- `time` module
+
+## 📜 Code
+```python
+import time
+
+my_time = int(input("Enter your time in seconds: "))
+
+for i in range(my_time, 0, -1):
+    seconds = i % 60
+    minutes = int(i / 60) % 60
+    hours = int(i / 3600)
+
+    print(f"{hours:02}:{minutes:02}:{seconds:02}")
+    time.sleep(1)
+
+print("TIMES UP!")
+```
+
+## ▶️ How to Run
+
+1. Make sure **Python is installed** on your system.
+2. Clone the repository or download the file.
+3. Run the script:
+
+```bash
+python countdown_timer.py
+```
+
+4. Enter the time in **seconds** and the countdown will begin.
+
+## 📚 What I Learned
+- Python loops (`for`)
+- Time formatting
+- Using the `time.sleep()` function
+- Basic user input handling
+
+## ⭐ Contribute
+Feel free to fork this repository and improve the timer with new features like:
+- GUI version
+- Sound alert when time ends
+- Pause/Resume functionality
+
+---
+
+💻 Beginner Python Project
